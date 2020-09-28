@@ -13,16 +13,26 @@ npm install --save image_compress_crop_preview
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useEffect, useState } from 'react'
 
-import MyComponent from 'image_compress_crop_preview'
+import { Squared } from 'image_compress_crop_preview'
 import 'image_compress_crop_preview/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  const [Output, setOutput] = useState()
+  
+  useEffect(() => {
+    console.log(Output)
+  }, [Output])
+
+  return (
+    <div>
+      <Squared defaultImg="" color="" size="" setOutput={setOutput}/>
+    </div>
+  )
 }
+export default App
+
 ```
 
 ## License

@@ -1,7 +1,7 @@
 {
   "name": "image_compress_crop_preview",
   "version": "1.0.0",
-  "description": "A library that is the combination of browser-image-compression, tinycrop, curtail, react-progressbar",
+  "description": "Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar",
   "author": "Farhan Syed",
   "license": "MIT",
   "repository": "fsyed7x/image_compress_crop_preview",
