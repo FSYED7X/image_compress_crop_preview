@@ -381,8 +381,8 @@ export const Squared = ({ defaultImg, size, color, setOutput }) => {
         {PreviewImage ? (
           <img src={PreviewImage} alt='Preview Image' />
         ) : (
-            <DefaultImagePlaceholder />
-          )}
+          <DefaultImagePlaceholder />
+        )}
       </article>
 
       {Loading && (
