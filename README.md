@@ -1,6 +1,6 @@
 # image_compress_crop_preview
 
-> Made with create-react-library
+> Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar
 
 [![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,6 +12,21 @@ npm install --save image_compress_crop_preview
 
 ## Usage
 
+# Default Usage
+```jsx
+import React from 'react'
+
+import { Squared } from 'image_compress_crop_preview'
+import 'image_compress_crop_preview/dist/index.css'
+
+const App = () => {
+  return <Squared />
+}
+export default App
+
+```
+
+# Store the Result - Base64 
 ```jsx
 import React, { useEffect, useState } from 'react'
 
@@ -27,7 +42,36 @@ const App = () => {
 
   return (
     <div>
-      <Squared defaultImg="" color="" size="" setOutput={setOutput}/>
+      <Squared setOutput={setOutput}/>
+    </div>
+  )
+}
+export default App
+
+```
+
+# Customization
+```jsx
+import React, { useEffect, useState } from 'react'
+
+import { Squared } from 'image_compress_crop_preview'
+import 'image_compress_crop_preview/dist/index.css'
+
+const App = () => {
+  const [Output, setOutput] = useState()
+  
+  useEffect(() => {
+    console.log(Output)
+  }, [Output])
+
+  return (
+    <div>
+      <Squared 
+        defaultImg="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" 
+        color="red" 
+        size="150px" 
+        setOutput={setOutput}
+      />
     </div>
   )
 }
