@@ -1,9 +1,210 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  padding: 0;
 }
+
+button {
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.Squared {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.Squared article {
+  position: relative;
+  border-radius: inherit;
+  padding: 5px;
+}
+
+.Squared article div {
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(127, 128, 128, 0.7);
+  color: #fff;
+  font-size: smaller;
+  display: none;
+  cursor: pointer;
+}
+
+.Squared article img,
+.Squared article svg {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+
+.Squared article input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+.Squared article input:hover + div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Squared footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  height: 0px;
+  overflow: hidden;
+}
+
+.Squared:hover footer {
+  height: 50px;
+}
+
+.backdrop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: -1;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999999999999;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.backdrop .cropperContainer {
+  background-color: #000 !important;
+}
+
+.backdrop .cropperContainer h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4%;
+  text-align: center;
+  display: none;
+}
+
+.backdrop .cropperContainer div {
+  z-index: 9999999999999999999999999999999;
+  height: 100%;
+}
+
+.backdrop .cropperContainer div::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.backdrop .cropperContainer div::-webkit-scrollbar-track {
+  width: 0px !important;
+}
+
+.backdrop .cropperContainer button {
+  color: #fff;
+  background-color: transparent !important;
+  padding: 16px;
+}
+
+.backdrop .cropperContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 786px) {
+  .cropperContainer {
+    padding: 5px;
+    height: 100vh;
+  }
+  .cropperContainer .mountContainer {
+    height: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cropperContainer .mountContainer div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .cropperContainer button {
+    position: fixed;
+    bottom: 0;
+    padding: 3%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 0;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

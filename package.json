@@ -1,8 +1,8 @@
 {
   "name": "image_compress_crop_preview",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
-  "author": "fsyed7x",
+  "description": "A library that is the combination of browser-image-compression, tinycrop, curtail, react-progressbar",
+  "author": "Farhan Syed",
   "license": "MIT",
   "repository": "fsyed7x/image_compress_crop_preview",
   "main": "dist/index.js",
@@ -49,5 +49,12 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "browser-image-compression": "^1.0.12",
+    "curtail": "^3.2.1",
+    "react-progressbar": "^15.4.1",
+    "tinycrop": "^1.7.0"
+  },
+  "keywords": ["image compression","image compress","image preview","image crop","image compress and crop"]
 }
