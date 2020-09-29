@@ -1,6 +1,10 @@
+<img src="default.svg" align="right" height='100' />
+
 # image_compress_crop_preview 
 
 > Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar and react-particles-js
+
+This Library is a simple type of input tag. It takes the input file compresses it, crop it and returns the Base64 of the input image. 
 
 ![Demo](demo.gif)
 
