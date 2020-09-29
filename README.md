@@ -76,13 +76,13 @@ export default App
 ## Parameters 
 *All the Parameter are optional :sweat_smile:*
 
-#### Parameter | Description | Default Value | Valid Values
+Parameter | Description | Default Value | Valid Values
 ------------ | ------------- | ------------- | -------------
 __defaultImg__ | Default image placeholder | Meme Face | Anything that goes within <img `src=" "` />
-__color__ | Color of progress bar (loading) | :yellow_square: `#FFCB2B` | HEX, RGB, Valid Color Names (RED, BLUE, etc...)
-__size__ | Defines the size of the component - Height x Width | 200px | px, em, vh, cm, mm, %, etc...
-__setOutput__ | Output Base64 will be returned as a parameter to this function. |  | __any function__. It can also be a console.log :sweat_smile:
-  __mb__ | Maximum Size of image after compression | 1 MB | MB
+color | Color of progress bar (loading) | :yellow_square: `#FFCB2B` | HEX, RGB, Valid Color Names (RED, BLUE, etc...)
+size | Defines the size of the component - Height x Width | 200px | px, em, vh, cm, mm, %, etc...
+setOutput | Output Base64 will be returned as a parameter to this function. |  | __any function__. It can also be a console.log :sweat_smile:
+mb | Maximum Size of image after compression | 1 MB | MB
 
 ## License
 
