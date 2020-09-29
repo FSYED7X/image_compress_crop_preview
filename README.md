@@ -1,4 +1,4 @@
-<img src="default.svg" align="right" height='100' width='300' />
+<img src="default.svg" align="right" height='150' width='300' />
 
 # image_compress_crop_preview
 
