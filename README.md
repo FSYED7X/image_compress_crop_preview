@@ -61,18 +61,18 @@ export default App
 
 #### Change the limit of image compression - MB
 ```jsx
-      <Squared setOutput={setOutput} mb={0.1}/>   // 100 KB
+<Squared setOutput={setOutput} mb={0.1}/>   // 100 KB
 
 ```
 
 #### Customization
 ```jsx
-      <Squared 
-        defaultImg="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" 
-        color="red" 
-        size="150px" 
-        setOutput={setOutput}
-      />
+<Squared 
+  defaultImg="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" 
+  color="red" 
+  size="150px" 
+  setOutput={setOutput}
+/>
 
 ```
 
