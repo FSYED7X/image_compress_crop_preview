@@ -1,7 +1,7 @@
 
 
 
-# <img src="default.svg" align="left" height='30' width='' /> image_compress_crop_preview &nbsp;&nbsp;&nbsp;&nbsp; [Demo](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
+# <img src="default.svg" align="left" height='40' width='' /> image_compress_crop_preview &nbsp;&nbsp;&nbsp;&nbsp; [Demo](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
 > Another cool React library 
 
