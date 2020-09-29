@@ -62,32 +62,20 @@ export default App
 
 ```
 
+#### Change the limit of image compression - MB
+```jsx
+      <Squared setOutput={setOutput} mb={0.1}/>   // 100 KB
+
+```
+
 #### Customization
 ```jsx
-import React, { useEffect, useState } from 'react'
-
-import { Squared } from 'image_compress_crop_preview'
-import 'image_compress_crop_preview/dist/index.css'
-
-const App = () => {
-  const [Output, setOutput] = useState()
-  
-  useEffect(() => {
-    console.log(Output)
-  }, [Output])
-
-  return (
-    <div>
       <Squared 
         defaultImg="https://cactusthemes.com/blog/wp-content/uploads/2018/01/tt_avatar_small.jpg" 
         color="red" 
         size="150px" 
         setOutput={setOutput}
       />
-    </div>
-  )
-}
-export default App
 
 ```
 
