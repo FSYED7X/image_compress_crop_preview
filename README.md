@@ -7,7 +7,7 @@
 
 <div align="center">
   
-[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview?color=%23FFCB2B)](https://github.com/FSYED7X/image_compress_crop_preview/stargazers)
+[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview?color=%23FFCB2B)](https://github.com/FSYED7X/image_compress_crop_preview/stargazers) &nbsp;  [![GitHub license](https://img.shields.io/github/license/FSYED7X/image_compress_crop_preview?color=crimson)](https://github.com/FSYED7X/image_compress_crop_preview)
 
 </div>
 
