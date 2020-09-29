@@ -32,7 +32,6 @@ const App = () => {
   return <Squared />
 }
 export default App
-
 ```
 
 #### Store the Result - Base64 
@@ -56,13 +55,11 @@ const App = () => {
   )
 }
 export default App
-
 ```
 
 #### Change the limit of image compression - MB
 ```jsx
 <Squared setOutput={setOutput} mb={0.1}/>   // 100 KB
-
 ```
 
 #### Customization
@@ -73,7 +70,6 @@ export default App
   size="150px" 
   setOutput={setOutput}
 />
-
 ```
 
 ## Parameters 
