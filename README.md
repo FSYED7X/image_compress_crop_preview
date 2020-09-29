@@ -2,9 +2,10 @@
 
 # image_compress_crop_preview 
 
-> Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar and react-particles-js
+> Another cool React library
 
-This Library is a simple type of input tag. It takes the input file compresses it, crop it and returns the Base64 of the input image. 
+This Library is a simply a `input tag`. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver(sometimes lifesaver :sweat_smile:). 
+It is build using browser-image-compression, tinycrop, curtail, react-progressbar and react-particles-js.
 
 ![Demo](demo.gif)
 
