@@ -88,7 +88,7 @@ defaultImg | Default image placeholder | Meme Face | Anything that goes within <
 color | Color of progress bar (loading) | :yellow_square:`#FFCB2B` | HEX, RGB, Valid Color Names (RED, BLUE, etc...)
 size | Defines the size of the component - Height x Width | 200px | px, em, vh, cm, mm, %, etc...
 setOutput | Output Base64 will be returned as a parameter to this function. |  | __any function__. It can also be a console.log :sweat_smile:
-
+  mb | Maximum Size of image after compression | 1 MB | MB
 
 ## License
 

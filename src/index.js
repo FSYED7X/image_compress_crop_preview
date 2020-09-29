@@ -291,7 +291,7 @@ function CompressImage(
   var imageFile = event.target.files[0]
 
   var options = {
-    maxSizeMB: mb,
+    maxSizeMB: mb || 1,
     maxWidthOrHeight: 1920,
     useWebWorker: true,
     onProgress: (e) => {
@@ -317,7 +317,7 @@ function CompressImage(
     })
 }
 
-export const Squared = ({ defaultImg, size, color, setOutput,mb }) => {
+export const Squared = ({ defaultImg, size, color, setOutput, mb }) => {
   const [PreviewImage, setPreviewImage] = useState(defaultImg)
   const [Loading, setLoading] = useState(false)
   const [CompressionProgress, setProgress] = useState(0)
@@ -383,8 +383,8 @@ export const Squared = ({ defaultImg, size, color, setOutput,mb }) => {
         {PreviewImage ? (
           <img src={PreviewImage} alt='Preview Image' />
         ) : (
-          <DefaultImagePlaceholder />
-        )}
+            <DefaultImagePlaceholder />
+          )}
       </article>
 
       {Loading && (
