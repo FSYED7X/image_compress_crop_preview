@@ -1,7 +1,9 @@
 # image_compress_crop_preview 
 
 > Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar and react-particles-js
+
 ![Demo](demo.gif)
+
 [![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
