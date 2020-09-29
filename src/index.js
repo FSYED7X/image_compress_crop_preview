@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles from './styles.module.css'
 import imageCompression from 'browser-image-compression'
 import * as curtail from 'curtail'
+import Particles from 'react-particles-js'
 var Progress = require('react-progressbar').default
 var Crop = require('tinycrop')
 
@@ -234,10 +235,75 @@ const CropWindow = ({
 }) => {
   return (
     <div className={styles.backdrop}>
-      <div className={styles.cropperContainer}>
-        <section className={styles.mountContainer}>
-          <div id='mount' />
-        </section>
+      <main>
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 50,
+              density: {
+                enable: true,
+                value_area: 500 // Denser the smaller the number.
+              }
+            },
+            color: {
+              // The color for every node, not the connecting lines.
+              // value: '#FFCB2B' // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
+            },
+            shape: {
+              type: 'circle', // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
+              stroke: {
+                // The border
+                width: 1
+                // color: '#FFCB2B'
+              },
+              polygon: {
+                // if the shape is a polygon
+                nb_sides: 5
+              },
+              image: {
+                // If the shape is an image
+                src: '',
+                width: 100,
+                height: 100
+              }
+            },
+            opacity: {
+              value: 0.2,
+              random: true
+            },
+            size: {
+              value: 10,
+              random: true
+            },
+            line_linked: {
+              enable: true,
+              distance: 200, // The radius before a line is added, the lower the number the more lines.
+              // color: '#E3004E',
+              opacity: 0.2,
+              width: 2
+            },
+            move: {
+              enable: true,
+              speed: 1,
+              direction: 'top', // Move them off the canvas, either "none", "top", "right", "bottom", "left", "top-right", "bottom-right" et cetera...
+              random: true,
+              straight: false, // Whether they'll shift left and right while moving.
+              out_mode: 'out', // What it'll do when it reaches the end of the canvas, either "out" or "bounce".
+              bounce: false,
+              attract: {
+                // Make them start to clump together while moving.
+                enable: true,
+                rotateX: 600,
+                rotateY: 1200
+              }
+            }
+          }
+        }}
+      />
+      </main>
+      <section>
+        <article id='mount' />
         <button
           onClick={() =>
             CropImage(
@@ -252,9 +318,9 @@ const CropWindow = ({
             )
           }
         >
-          Done
+          DONE
         </button>
-      </div>
+      </section>
     </div>
   )
 }
@@ -383,8 +449,8 @@ export const Squared = ({ defaultImg, size, color, setOutput, mb }) => {
         {PreviewImage ? (
           <img src={PreviewImage} alt='Preview Image' />
         ) : (
-            <DefaultImagePlaceholder />
-          )}
+          <DefaultImagePlaceholder />
+        )}
       </article>
 
       {Loading && (

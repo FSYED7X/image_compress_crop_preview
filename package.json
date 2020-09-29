@@ -53,8 +53,15 @@
   "dependencies": {
     "browser-image-compression": "^1.0.12",
     "curtail": "^3.2.1",
+    "react-particles-js": "^3.3.0",
     "react-progressbar": "^15.4.1",
     "tinycrop": "^1.7.0"
   },
-  "keywords": ["image compression","image compress","image preview","image crop","image compress and crop"]
+  "keywords": [
+    "image compression",
+    "image compress",
+    "image preview",
+    "image crop",
+    "image compress and crop"
+  ]
 }

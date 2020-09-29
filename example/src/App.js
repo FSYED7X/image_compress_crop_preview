@@ -11,7 +11,7 @@ const App = () => {
   }, [Output])
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: '100vh' }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: '100vh',textAlign:"center" }}>
       <Squared setOutput={setOutput} mb={0.05}/>
       <br /><br /><br /><br /><br />
       {Output && <p>See Compressed and Cropped Base64 in the console</p>}
