@@ -284,13 +284,14 @@ function CompressImage(
   setProgress,
   setBase64,
   setLoading,
-  setOpenCropWindow
+  setOpenCropWindow,
+  mb
 ) {
   setLoading(true)
   var imageFile = event.target.files[0]
 
   var options = {
-    maxSizeMB: 0.05,
+    maxSizeMB: mb,
     maxWidthOrHeight: 1920,
     useWebWorker: true,
     onProgress: (e) => {
@@ -316,7 +317,7 @@ function CompressImage(
     })
 }
 
-export const Squared = ({ defaultImg, size, color, setOutput }) => {
+export const Squared = ({ defaultImg, size, color, setOutput,mb }) => {
   const [PreviewImage, setPreviewImage] = useState(defaultImg)
   const [Loading, setLoading] = useState(false)
   const [CompressionProgress, setProgress] = useState(0)
@@ -370,7 +371,8 @@ export const Squared = ({ defaultImg, size, color, setOutput }) => {
                 setProgress,
                 setBase64,
                 setLoading,
-                setOpenCropWindow
+                setOpenCropWindow,
+                mb
               )
             }
             style={{ zIndex: Base64 && '-9999999' }}
