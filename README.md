@@ -1,4 +1,6 @@
-# <img src="default.svg" align="left" height='40' /> image_compress_crop_preview
+<img src="default.svg" align="right" height='100' />
+
+# image_compress_crop_preview
 
 [![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
