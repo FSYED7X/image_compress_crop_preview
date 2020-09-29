@@ -8,10 +8,10 @@ __Another cool React Component Library__
 
 ![Demo](demo.gif)
 
-#### Image Compress Crop Preview Input Component for React using, 
+__Image Compress Crop Preview Input Component for React is the combination of__, 
 [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression) [`tinycrop`](https://www.npmjs.com/package/browser-image-compression) [`curtail`](https://www.npmjs.com/package/browser-image-compression) [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression) [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
 
-#### Checkout the [DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
+__Checkout the [DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)__
 
 ## Install
 
