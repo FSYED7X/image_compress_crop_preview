@@ -1,8 +1,18 @@
-# image_compress_crop_preview
+# image_compress_crop_preview 
 
-> Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar
-
+> Another cool React library - the combination of browser-image-compression, tinycrop, curtail, react-progressbar and react-particles-js
+![Demo](demo.gif)
 [![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
+#### Image Compress Crop Preview Input Component for React using,
+1. [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression)
+2. [`tinycrop`](https://www.npmjs.com/package/browser-image-compression)
+3. [`curtail`](https://www.npmjs.com/package/browser-image-compression)
+4. [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression)
+5. [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
+
+#### Checkout the [DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
 ## Install
 
