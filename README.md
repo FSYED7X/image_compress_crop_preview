@@ -10,7 +10,8 @@ __Another cool React library__
 
 ![Demo](demo.gif)
 
-#### Image Compress Crop Preview Input Component for React using, [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression) [`tinycrop`](https://www.npmjs.com/package/browser-image-compression) [`curtail`](https://www.npmjs.com/package/browser-image-compression) [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression) [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
+#### Image Compress Crop Preview Input Component for React using, 
+[`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression) [`tinycrop`](https://www.npmjs.com/package/browser-image-compression) [`curtail`](https://www.npmjs.com/package/browser-image-compression) [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression) [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
 
 #### Checkout the [DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
