@@ -1,4 +1,4 @@
-<img src="default.svg" style='height:100px;width:100px;margin:auto' />
+<img src="default.svg" height=100 margin='auto' />
 
 <h1 align='center'>image_compress_crop_preview</h1>
 
