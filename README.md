@@ -1,10 +1,17 @@
-<img src="default.svg" align="right" height='150' width='300' />
 
-# image_compress_crop_preview
+<p align="center">
+  <img src="default.svg" height='100' />
+</p>
 
-[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<h1 align='center'>image_compress_crop_preview</h1>
 
-__Another cool React Component Library__ 
+<div align="center">
+  
+[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview?color=%23FFCB2B)](https://github.com/FSYED7X/image_compress_crop_preview/stargazers) &nbsp;  [![GitHub license](https://img.shields.io/github/license/FSYED7X/image_compress_crop_preview?color=crimson)](https://github.com/FSYED7X/image_compress_crop_preview)
+
+</div>
+
+<h4 align='center'> Another cool React Component Library </h4>
 
 <p style='text-align:justify'>This Library is a simply a <mark>input tag</mark>. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver :sweat_smile:).</p>
 
