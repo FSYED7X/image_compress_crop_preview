@@ -13,6 +13,8 @@ __Another cool React library__
 
 ![Demo](demo.gif)
 
+<img src='demo.gif' style='border:5px dashed #FFCB2B'/>
+
 #### Image Compress Crop Preview Input Component for React using,
 1. [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression)
 2. [`tinycrop`](https://www.npmjs.com/package/browser-image-compression)
