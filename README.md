@@ -6,7 +6,7 @@
 
 [![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<p style='text-align:justify'>This Library is a simply a `input tag`. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver :sweat_smile:).</p>
+<p style='text-align:justify'>This Library is a simply a <mark>input tag</mark>. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver :sweat_smile:).</p>
 
 ![Demo](demo.gif)
 
