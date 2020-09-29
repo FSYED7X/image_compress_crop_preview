@@ -1,4 +1,4 @@
-<img src="default.svg" align="left" height='130' width='' />
+<img src="default.svg" align="left" height='140' width='' />
 
 # image_compress_crop_preview &nbsp;&nbsp;&nbsp;&nbsp;[Demo](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
