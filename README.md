@@ -6,12 +6,13 @@ __Another cool React Component Library__
 
 <p style='text-align:justify'>This Library is a simply a <mark>input tag</mark>. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver :sweat_smile:).</p>
 
+__Checkout the *[DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)*__
+
 ![Demo](demo.gif)
 
 Image Compress Crop Preview Input Component for React is the combination of, 
 [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression) [`tinycrop`](https://www.npmjs.com/package/browser-image-compression) [`curtail`](https://www.npmjs.com/package/browser-image-compression) [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression) [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
 
-__Checkout the *[DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)*__
 
 ## Install
 
@@ -75,7 +76,7 @@ export default App
 ## Parameters 
 *All the Parameter are optional :sweat_smile:*
 
-Parameter | Description | Default Value | Valid Values
+#### Parameter | Description | Default Value | Valid Values
 ------------ | ------------- | ------------- | -------------
 __defaultImg__ | Default image placeholder | Meme Face | Anything that goes within <img `src=" "` />
 __color__ | Color of progress bar (loading) | :yellow_square: `#FFCB2B` | HEX, RGB, Valid Color Names (RED, BLUE, etc...)
