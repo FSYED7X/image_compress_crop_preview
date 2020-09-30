@@ -1,16 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
-button {
-  cursor: pointer;
-  width: 100%;
-  border: 0;
-  background-color: transparent;
-}
-
-button:focus {
-  outline: none;
-  border: none;
-}
-
 .Squared {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -24,6 +12,18 @@ button:focus {
   background-color: transparent;
   border: 1px solid #ccc;
   position: relative;
+}
+
+.Squared button {
+  cursor: pointer;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+
+.Squared button:focus {
+  outline: none;
+  border: none;
 }
 
 .Squared * {
