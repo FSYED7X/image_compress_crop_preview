@@ -1,6 +1,7 @@
 # image_compress_crop_preview
 
-[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)  &nbsp; [![npm downloads](https://img.shields.io/npm/dt/image_compress_crop_preview.svg?maxAge=2592000)](http://www.npmtrends.com/image_compress_crop_preview) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview.svg?style=social&label=Star)](https://github.com/FSYED7X/image_compress_crop_preview)
+[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)  &nbsp; [![npm downloads](https://img.shields.io/npm/dt/image_compress_crop_preview.svg?maxAge=2592000)](http://www.npmtrends.com/image_compress_crop_preview) &nbsp; [![Bundle size](https://img.shields.io/bundlephobia/min/image_compress_crop_preview.svg)](https://bundlephobia.com/result?p=image_compress_crop_preview) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview.svg?style=social&label=Star)](https://github.com/FSYED7X/image_compress_crop_preview)
+
 
 __Another cool React Component Library__ 
 
@@ -80,18 +81,24 @@ export default App
 ```
 
 ## Parameters 
-*All the Parameter are optional :sweat_smile:*
+*All the Parameter are optional  😅*
 
 Parameter | Description | Default Value | Valid Values
 ------------ | ------------- | ------------- | -------------
 defaultImg | Default image placeholder | Meme Face | Anything that goes within <img `src=" "` />
 color | Color of progress bar (loading) | ![#FFCB2B](https://via.placeholder.com/15/FFCB2B/000000?text=+) `#FFCB2B` | HEX, RGB, Valid Color Names (RED, BLUE, etc...)
 size | Defines the size of the component - Height x Width | 200px | px, em, vh, cm, mm, %, etc...
-setOutput | Output Base64 will be returned as a parameter to this function. |  | __any function__. It can also be a console.log :sweat_smile:
+setOutput | Output Base64 will be returned as a parameter to this function. |  | __any function__. It can also be a console.log  😅
   mb | Maximum Size of image after compression | 1 MB | MB
 
 <br/>
 
-## License
+## Support
 
-MIT © [fsyed7x](https://github.com/fsyed7x)
+<a href="https://www.buymeacoffee.com/fsyed7x" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height=60 width=217 ></a>
+
+<br/>
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
