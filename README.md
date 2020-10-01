@@ -6,9 +6,9 @@ __Another cool React Component Library__
 
 <p style='text-align:justify'>This Library is a simply a <mark>input tag</mark>. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver 😅).</p>
 
+<img src='default.svg' height='50' width=50 />
 
-
-## 🚀[See it in Action](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
+## <img src='default.svg' height=30 width=30 /> [See it in Action](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
 ![Demo](demo.gif)
 
