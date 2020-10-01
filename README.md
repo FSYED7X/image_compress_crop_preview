@@ -6,20 +6,22 @@ __Another cool React Component Library__
 
 <p style='text-align:justify'>This Library is a simply a <mark>input tag</mark>. It takes the input file compresses it, crop it and returns the Base64 of the input image. Almost all projects need such functionality that allows user to select, compress, crop and preview the images before uploding it. This Library is a timesaver (sometimes lifesaver 😅).</p>
 
-![Demo](alert.png)
+
+
+## 🚀[See it in Action](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
 ![Demo](demo.gif)
 
 #### Image Compress Crop Preview Input Component for React using, 
 [`browser-image-compression`](https://www.npmjs.com/package/browser-image-compression) [`tinycrop`](https://www.npmjs.com/package/browser-image-compression) [`curtail`](https://www.npmjs.com/package/browser-image-compression) [`react-progressbar`](https://www.npmjs.com/package/browser-image-compression) [`react-particles-js`](https://www.npmjs.com/package/browser-image-compression)
 
-#### Checkout the [DEMO](https://1dthizajchmucopxjhxata-on.drv.tw/build/)
 
 ## Install
 
 ```bash
 npm install --save image_compress_crop_preview
 ```
+![Demo](alert.png)
 
 ## Usage
 
