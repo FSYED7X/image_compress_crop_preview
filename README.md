@@ -1,6 +1,6 @@
 # image_compress_crop_preview
 
-[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/image_compress_crop_preview.svg)](https://www.npmjs.com/package/image_compress_crop_preview) &nbsp; [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/FSYED7X/image_compress_crop_preview.svg?style=social&label=Star)](https://github.com/FSYED7X/image_compress_crop_preview)
 
 __Another cool React Component Library__ 
 
