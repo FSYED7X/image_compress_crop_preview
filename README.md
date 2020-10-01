@@ -79,7 +79,7 @@ export default App
 />
 
 ```
-
+<br/>
 ## Parameters 
 *All the Parameter are optional  😅*
 
