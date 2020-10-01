@@ -99,4 +99,4 @@ setOutput | Output Base64 will be returned as a parameter to this function. |  |
 <br/>
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/FSYED7X/image_compress_crop_preview/blob/master/LICENCE) file for details
