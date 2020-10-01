@@ -96,9 +96,7 @@ setOutput | Output Base64 will be returned as a parameter to this function. |  |
 ## Support
 
 <a href="https://www.buymeacoffee.com/fsyed7x" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height=60 width=217 ></a>
-
 <br/>
-
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
