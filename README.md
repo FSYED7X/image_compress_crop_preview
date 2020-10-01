@@ -21,9 +21,10 @@ __Another cool React Component Library__
 ```bash
 npm install --save image_compress_crop_preview
 ```
-![Demo](alert.png)
 
 ## Usage
+
+![Demo](alert.png)
 
 #### Default Usage
 ```jsx
