@@ -16,6 +16,7 @@ __Another cool React Component Library__
 
 
 ## Install
+[![image_compress_crop_preview](https://nodei.co/npm/image_compress_crop_preview.png)](https://npmjs.org/package/image_compress_crop_preview)
 
 ```bash
 npm install --save image_compress_crop_preview
